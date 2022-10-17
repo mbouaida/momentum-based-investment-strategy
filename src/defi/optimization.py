@@ -75,7 +75,6 @@ class Optimization():
                                                     RiskAversParam, PortfolioSize), \
                              method = 'SLSQP',  bounds = bnds, constraints = cons, \
                              tol = 10**-3)
-        print(opt)
         return opt
     
     def defiReturnsComputing(self, DefiPrice, Rows, Columns):

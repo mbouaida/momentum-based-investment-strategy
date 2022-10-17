@@ -7,7 +7,7 @@ with open("requirements.txt") as f:
     requirements = f.readlines()
 
 setup(
-    name='defi',
+    name='defi strategy',
     packages=setuptools.find_packages("src"),
     version='0.1.0',
     description='momentum-based-investment-strategy Defi',
