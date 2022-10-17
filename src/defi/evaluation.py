@@ -24,7 +24,7 @@ def ann_estimated_sharpe_ratio(returns=None, periods=365, *, sr=None):
     returns: np.array, pd.Series, pd.DataFrame
     periods: int
         How many items in `returns` complete a Year.
-        If returns are daily: 261, weekly: 52, monthly: 12, ...
+        If returns are daily: 365, weekly: 52, monthly: 12, ...
     sr: float, np.array, pd.Series, pd.DataFrame
         Sharpe ratio to be annualized, it's frequency must be coherent with `periods`
     Returns
