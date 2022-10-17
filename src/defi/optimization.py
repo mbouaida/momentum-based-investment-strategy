@@ -109,7 +109,7 @@ class Optimization():
         
         #extract asset labels
         assetLabels = self.df.columns
-        print('Asset labels for portfolio : \n', assetLabels)
+        #print('Asset labels for portfolio : \n', assetLabels)
 
         #compute asset returns
         arDefiPrices = np.asarray(self.df)

@@ -4,6 +4,7 @@ setuptools~=60.2.0
 numpy
 scipy
 cloudscraper
+warnings
 requests
 seaborn
 matplotlib~=3.5.2
