@@ -16,7 +16,7 @@ def estimated_sharpe_ratio(returns):
     return returns.mean() / returns.std(ddof=1)
 
 
-def ann_estimated_sharpe_ratio(returns=None, periods=261, *, sr=None):
+def ann_estimated_sharpe_ratio(returns=None, periods=365, *, sr=None):
     """
     Calculate the annualized estimated sharpe ratio (risk_free=0).
     Parameters
