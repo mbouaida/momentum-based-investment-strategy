@@ -54,9 +54,8 @@ class Backtesting():
                 new_defi = [defi for defi in new_portfolio if defi not in old_portfolio]
                 percisting_defi = [defi for defi in new_portfolio if defi in old_portfolio]
 
-
-                print(f"Week {day} momentum : {week_optimal_allocation[day][1]}")
-                print("**********************************************************************************")
+                
+                
 
                 for defi in percisting_defi:
                     residual = allocution[defi]*portfolio_value[day] - portfolio_dict[day][defi]
