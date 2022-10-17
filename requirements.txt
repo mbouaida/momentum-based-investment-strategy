@@ -1,0 +1,11 @@
+pandas~=1.4.2
+scikit-learn~=1.1.1
+setuptools~=60.2.0
+numpy
+scipy
+cloudscraper
+requests
+seaborn
+matplotlib~=3.5.2
+pip~=21.3.1
+pytest~=7.1.2
